@@ -1,16 +1,14 @@
 <script setup lang="ts">
-	import HelloWorld from "./components/HelloWorld.vue";
 	import TaskManager from "./components/TaskManager.vue";
 </script>
 
 <template>
-	<HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
 	<TaskManager />
 </template>
 
-<style scoped>
+<style>
 	#app {
-		font-family: Avenir, Helvetica, Arial, sans-serif;
+		font-family: "Roboto", sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
